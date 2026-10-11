@@ -1,9 +1,7 @@
 package com.example.bmicalculator.ui.theme
 
-import androidx.compose.material3.Typography
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
-import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.sp
@@ -24,6 +22,18 @@ object BMITypography {
     val Button = TextStyle(
         color = Color.White,
         fontWeight = FontWeight.Bold,
+        fontSize = 16.sp,
+        textAlign = TextAlign.Center
+    )
+    val Error = TextStyle(
+        color = BMIRed,
+        fontWeight = FontWeight.Normal,
+        fontSize = 12.sp,
+        textAlign = TextAlign.Center
+    )
+    val Complementary = TextStyle(
+        color = BMIGreen,
+        fontWeight = FontWeight.Normal,
         fontSize = 16.sp,
         textAlign = TextAlign.Center
     )
